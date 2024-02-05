@@ -30,286 +30,268 @@
                     "text" : "Unverified",
                     "color" : "YELLOW"
                 },
-                "detailsTitle" : "$leadOrder.leadName",
-                "detailsDescription" : "Lead",
-                "isCallCtaEnabled" : false,
-                "ctaText" : "Lead"
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Lead Submitted",
+                "isCallCtaEnabled": false,
+                "ctaText": "Lead"
             }
         },
         {
-            "stage" : "new",
-            "status" : "any",
-            "subStatus" : [
-
-            ],
-            "action" : "BUSINESS_LOANS_NEW",
-            "event" : "BUSINESS_LOANS_NEW_ANY",
-            "isNextStatusAcceptable" : true,
-            "isEndOfJourneyStatus" : false,
-            "sequence" : 2,
-            "leadDisplay" : {
-                "title" : "$leadOrder.leadName",
-                "description" : "Lead Submitted",
-                "productChip" : {
-                    "text" : "Business Loans",
-                    "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
+            "stage": "new",
+            "status": "any",
+            "subStatus": [],
+            "action": "BUSINESS_LOANS_NEW",
+            "event": "BUSINESS_LOANS_NEW_ANY",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 2,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Lead Submitted",
+                "productChip": {
+                    "text": "Business Loans",
+                    "icon": "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
                 },
-                "sourceChip" : {
-                    "text" : "Lead Form"
+                "sourceChip": {
+                    "text": "Lead Form"
                 },
-                "statusChip" : {
-                    "text" : "Verified",
-                    "color" : "YELLOW"
+                "statusChip": {
+                    "text": "Verified",
+                    "color": "YELLOW"
                 },
-                "detailsTitle" : "$leadOrder.leadName",
-                "detailsDescription" : "Lead",
-                "isCallCtaEnabled" : false,
-                "ctaText" : "Lead"
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Lead Submitted",
+                "isCallCtaEnabled": false,
+                "ctaText": "Lead"
             }
         },
         {
-            "stage" : "rejected",
-            "status" : "any",
-            "subStatus" : [
-
-            ],
-            "action" : "BUSINESS_LOANS_REJECTED",
-            "event" : "BUSINESS_LOANS_REJECTED_ANY",
-            "isNextStatusAcceptable" : false,
-            "isEndOfJourneyStatus" : true,
-            "sequence" : 3,
-            "leadDisplay" : {
-                "title" : "$leadOrder.leadName",
-                "description" : "Application closed",
-                "productChip" : {
-                    "text" : "Business Loans",
-                    "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
+            "stage": "rejected",
+            "status": "any",
+            "subStatus": [],
+            "action": "BUSINESS_LOANS_REJECTED",
+            "event": "BUSINESS_LOANS_REJECTED_ANY",
+            "isNextStatusAcceptable": false,
+            "isEndOfJourneyStatus": true,
+            "sequence": 3,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application closed",
+                "productChip": {
+                    "text": "Business Loans",
+                    "icon": "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
                 },
-                "sourceChip" : {
-                    "text" : "Lead Form"
+                "sourceChip": {
+                    "text": "Lead Form"
                 },
-                "statusChip" : {
-                    "text" : "Rejected",
-                    "color" : "RED"
+                "statusChip": {
+                    "text": "Rejected",
+                    "color": "RED"
                 },
-                "detailsTitle" : "$leadOrder.leadName",
-                "detailsDescription" : "Application closed",
-                "isCallCtaEnabled" : false
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application closed",
+                "isCallCtaEnabled": false
             }
         },
         {
-            "stage" : "withdrawn",
-            "status" : "any",
-            "subStatus" : [
-
-            ],
-            "action" : "BUSINESS_LOANS_WITHDRAWN",
-            "event" : "BUSINESS_LOANS_WITHDRAWN_ANY",
-            "isNextStatusAcceptable" : false,
-            "isEndOfJourneyStatus" : true,
-            "sequence" : 4,
-            "leadDisplay" : {
-                "title" : "$leadOrder.leadName",
-                "description" : "Application closed",
-                "productChip" : {
-                    "text" : "Business Loans",
-                    "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
+            "stage": "withdrawn",
+            "status": "any",
+            "subStatus": [],
+            "action": "BUSINESS_LOANS_WITHDRAWN",
+            "event": "BUSINESS_LOANS_WITHDRAWN_ANY",
+            "isNextStatusAcceptable": false,
+            "isEndOfJourneyStatus": true,
+            "sequence": 4,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application closed",
+                "productChip": {
+                    "text": "Business Loans",
+                    "icon": "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
                 },
-                "sourceChip" : {
-                    "text" : "Lead Form"
+                "sourceChip": {
+                    "text": "Lead Form"
                 },
-                "statusChip" : {
-                    "text" : "Withdrawn",
-                    "color" : "RED"
+                "statusChip": {
+                    "text": "Withdrawn",
+                    "color": "RED"
                 },
-                "detailsTitle" : "$leadOrder.leadName",
-                "detailsDescription" : "Application closed",
-                "isCallCtaEnabled" : false
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application closed",
+                "isCallCtaEnabled": false
             }
         },
         {
-            "stage" : "pending_approval",
-            "status" : "any",
-            "subStatus" : [
-
-            ],
-            "action" : "BUSINESS_LOANS_PENDING_APPROVAL",
-            "event" : "BUSINESS_LOANS_PENDING_APPROVAL_ANY",
-            "isNextStatusAcceptable" : true,
-            "isEndOfJourneyStatus" : false,
-            "sequence" : 5,
-            "leadDisplay" : {
-                "title" : "$leadOrder.leadName",
-                "description" : "Application in progress",
-                "productChip" : {
-                    "text" : "Business Loans",
-                    "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
+            "stage": "pending_approval",
+            "status": "any",
+            "subStatus": [],
+            "action": "BUSINESS_LOANS_PENDING_APPROVAL",
+            "event": "BUSINESS_LOANS_PENDING_APPROVAL_ANY",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 5,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application in progress",
+                "productChip": {
+                    "text": "Business Loans",
+                    "icon": "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
                 },
-                "sourceChip" : {
-                    "text" : "Lead Form"
+                "sourceChip": {
+                    "text": "Lead Form"
                 },
-                "statusChip" : {
-                    "text" : "Cutomer approval pending",
-                    "color" : "YELLOW"
+                "statusChip": {
+                    "text": "Customer approval pending",
+                    "color": "YELLOW"
                 },
-                "detailsTitle" : "$leadOrder.leadName",
-                "detailsDescription" : "Application in progress",
-                "isCallCtaEnabled" : false,
-                "ctaText" : "Application in progress"
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application in progress",
+                "isCallCtaEnabled": false,
+                "ctaText": "Application in progress"
             }
         },
         {
-            "stage" : "pending_documentation",
-            "status" : "any",
-            "subStatus" : [
-
-            ],
-            "action" : "BUSINESS_LOANS_PENDING_DOCUMENTATION",
-            "event" : "BUSINESS_LOANS_PENDING_DOCUMENTATION_ANY",
-            "isNextStatusAcceptable" : true,
-            "isEndOfJourneyStatus" : false,
-            "sequence" : 6,
-            "leadDisplay" : {
-                "title" : "$leadOrder.leadName",
-                "description" : "Application in progress",
-                "productChip" : {
-                    "text" : "Business Loans",
-                    "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
+            "stage": "pending_documentation",
+            "status": "any",
+            "subStatus": [],
+            "action": "BUSINESS_LOANS_PENDING_DOCUMENTATION",
+            "event": "BUSINESS_LOANS_PENDING_DOCUMENTATION_ANY",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 6,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application in progress",
+                "productChip": {
+                    "text": "Business Loans",
+                    "icon": "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
                 },
-                "sourceChip" : {
-                    "text" : "Lead Form"
+                "sourceChip": {
+                    "text": "Lead Form"
                 },
-                "statusChip" : {
-                    "text" : "Documentation Pending",
-                    "color" : "YELLOW"
+                "statusChip": {
+                    "text": "Documentation Pending",
+                    "color": "YELLOW"
                 },
-                "detailsTitle" : "$leadOrder.leadName",
-                "detailsDescription" : "Application in progress",
-                "isCallCtaEnabled" : false,
-                "ctaText" : "Application in progress"
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application in progress",
+                "isCallCtaEnabled": false,
+                "ctaText": "Application in progress"
             }
         },
         {
-            "stage" : "pending_review",
-            "status" : "any",
-            "subStatus" : [
-
-            ],
-            "action" : "BUSINESS_LOANS_PENDING_REVIEW",
-            "event" : "BUSINESS_LOANS_PENDING_REVIEW_ANY",
-            "isNextStatusAcceptable" : true,
-            "isEndOfJourneyStatus" : false,
-            "sequence" : 7,
-            "leadDisplay" : {
-                "title" : "$leadOrder.leadName",
-                "description" : "Application Submitted",
-                "productChip" : {
-                    "text" : "Business Loans",
-                    "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
+            "stage": "pending_review",
+            "status": "any",
+            "subStatus": [],
+            "action": "BUSINESS_LOANS_PENDING_REVIEW",
+            "event": "BUSINESS_LOANS_PENDING_REVIEW_ANY",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 7,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application Submitted",
+                "productChip": {
+                    "text": "Business Loans",
+                    "icon": "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
                 },
-                "sourceChip" : {
-                    "text" : "Lead Form"
+                "sourceChip": {
+                    "text": "Lead Form"
                 },
-                "statusChip" : {
-                    "text" : "In review",
-                    "color" : "YELLOW"
+                "statusChip": {
+                    "text": "In review",
+                    "color": "YELLOW"
                 },
-                "detailsTitle" : "$leadOrder.leadName",
-                "detailsDescription" : "Pending review",
-                "isCallCtaEnabled" : false
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application Submitted",
+                "isCallCtaEnabled": false
             }
         },
         {
-            "stage" : "ready_for_disbursal",
-            "status" : "any",
-            "subStatus" : [
-
-            ],
-            "action" : "BUSINESS_LOANS_READY_FOR_DISBURSAL",
-            "event" : "BUSINESS_LOANS_READY_FOR_DISBURSAL_ANY",
-            "isNextStatusAcceptable" : true,
-            "isEndOfJourneyStatus" : false,
-            "sequence" : 8,
-            "leadDisplay" : {
-                "title" : "$leadOrder.leadName",
-                "description" : "Success",
-                "productChip" : {
-                    "text" : "Business Loans",
-                    "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
+            "stage": "ready_for_disbursal",
+            "status": "any",
+            "subStatus": [],
+            "action": "BUSINESS_LOANS_READY_FOR_DISBURSAL",
+            "event": "BUSINESS_LOANS_READY_FOR_DISBURSAL_ANY",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 8,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Success",
+                "productChip": {
+                    "text": "Business Loans",
+                    "icon": "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
                 },
-                "sourceChip" : {
-                    "text" : "Lead Form"
+                "sourceChip": {
+                    "text": "Lead Form"
                 },
-                "statusChip" : {
-                    "text" : "Ready to disbursal",
-                    "color" : "GREEN"
+                "statusChip": {
+                    "text": "Ready to disbursal",
+                    "color": "GREEN"
                 },
-                "detailsTitle" : "$leadOrder.leadName",
-                "detailsDescription" : "Application Successful",
-                "isCallCtaEnabled" : false
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Success",
+                "isCallCtaEnabled": false
             }
         },
         {
-            "stage" : "loan_active",
-            "status" : "any",
-            "subStatus" : [
-
-            ],
-            "action" : "BUSINESS_LOANS_LOAN_ACTIVE",
-            "event" : "BUSINESS_LOANS_LOAN_ACTIVE_ANY",
-            "isNextStatusAcceptable" : true,
-            "isEndOfJourneyStatus" : false,
-            "sequence" : 9,
-            "leadDisplay" : {
-                "title" : "$leadOrder.leadName",
-                "description" : "Success",
-                "productChip" : {
-                    "text" : "Business Loans",
-                    "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
+            "stage": "loan_active",
+            "status": "any",
+            "subStatus": [],
+            "action": "BUSINESS_LOANS_LOAN_ACTIVE",
+            "event": "BUSINESS_LOANS_LOAN_ACTIVE_ANY",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 9,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Success",
+                "productChip": {
+                    "text": "Business Loans",
+                    "icon": "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
                 },
-                "sourceChip" : {
-                    "text" : "Lead Form"
+                "sourceChip": {
+                    "text": "Lead Form"
                 },
-                "statusChip" : {
-                    "text" : "Loan disbursed",
-                    "color" : "GREEN"
+                "statusChip": {
+                    "text": "Loan disbursed",
+                    "color": "GREEN"
                 },
-                "detailsTitle" : "$leadOrder.leadName",
-                "detailsDescription" : "Application Successful",
-                "isCallCtaEnabled" : false
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Success",
+                "isCallCtaEnabled": false
             }
         },
         {
-            "stage" : "lead_completed",
-            "status" : "any",
-            "subStatus" : [
-
-            ],
-            "action" : "BUSINESS_LOANS_LEAD_COMPLETED",
-            "event" : "BUSINESS_LOANS_LEAD_COMPLETED_ANY",
-            "isNextStatusAcceptable" : false,
-            "isEndOfJourneyStatus" : true,
-            "sequence" : 9,
-            "leadDisplay" : {
-                "title" : "$leadOrder.leadName",
-                "description" : "Application Successful",
-                "productChip" : {
-                    "text" : "Business Loans",
-                    "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
+            "stage": "lead_completed",
+            "status": "any",
+            "subStatus": [],
+            "action": "BUSINESS_LOANS_LEAD_COMPLETED",
+            "event": "BUSINESS_LOANS_LEAD_COMPLETED_ANY",
+            "isNextStatusAcceptable": false,
+            "isEndOfJourneyStatus": true,
+            "sequence": 9,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application Successful",
+                "productChip": {
+                    "text": "Business Loans",
+                    "icon": "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
                 },
-                "sourceChip" : {
-                    "text" : "Lead Form"
+                "sourceChip": {
+                    "text": "Lead Form"
                 },
-                "statusChip" : {
-                    "text" : "Lead Won",
-                    "color" : "GREEN"
+                "statusChip": {
+                    "text": "Lead Won",
+                    "color": "GREEN"
                 },
-                "detailsTitle" : "$leadOrder.leadName",
-                "detailsDescription" : "Application Successful",
-                "isCallCtaEnabled" : false
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application Successful",
+                "isCallCtaEnabled": false
             }
         }
     ],
-    "updatedBy" : "siddesh.kalangutkar",
-    "_class" : "LeadStageInfo"
+    "updatedBy": "siddesh.kalangutkar"
+
 }
