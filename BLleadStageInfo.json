@@ -18,7 +18,7 @@
             "sequence" : 1,
             "leadDisplay" : {
                 "title" : "$leadOrder.leadName",
-                "description" : "Lead",
+                "description" : "Lead Submitted",
                 "productChip" : {
                     "text" : "Business Loans",
                     "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
@@ -49,7 +49,7 @@
             "sequence" : 2,
             "leadDisplay" : {
                 "title" : "$leadOrder.leadName",
-                "description" : "Lead",
+                "description" : "Lead Submitted",
                 "productChip" : {
                     "text" : "Business Loans",
                     "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
@@ -202,7 +202,7 @@
             "sequence" : 7,
             "leadDisplay" : {
                 "title" : "$leadOrder.leadName",
-                "description" : "Pending review",
+                "description" : "Application Submitted",
                 "productChip" : {
                     "text" : "Business Loans",
                     "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
@@ -232,7 +232,7 @@
             "sequence" : 8,
             "leadDisplay" : {
                 "title" : "$leadOrder.leadName",
-                "description" : "Application Successful",
+                "description" : "Success",
                 "productChip" : {
                     "text" : "Business Loans",
                     "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
@@ -262,7 +262,7 @@
             "sequence" : 9,
             "leadDisplay" : {
                 "title" : "$leadOrder.leadName",
-                "description" : "Application Successful",
+                "description" : "Success",
                 "productChip" : {
                     "text" : "Business Loans",
                     "icon" : "https://images.ctfassets.net/5vcetob1xxe5/2yFmNgLeUP1YnssKUjo2gJ/21968a49c9f642d4deb46d56c0063d4a/Business_loan-01.svg"
