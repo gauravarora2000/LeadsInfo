@@ -43,7 +43,7 @@
       "event": "BUSINESS_LOANS_LEAD_ANY",
       "isNextStatusAcceptable": true,
       "isEndOfJourneyStatus": false,
-      "sequence": 1,
+      "sequence": 2,
       "leadDisplay": {
         "title": "$leadOrder.leadName",
         "description": "Application",
@@ -72,7 +72,7 @@
       "event": "BUSINESS_LOANS_NEW_ANY",
       "isNextStatusAcceptable": true,
       "isEndOfJourneyStatus": false,
-      "sequence": 2,
+      "sequence": 3,
       "leadDisplay": {
         "title": "$leadOrder.leadName",
         "description": "Application",
@@ -101,7 +101,7 @@
       "event": "BUSINESS_LOANS_REJECTED_ANY",
       "isNextStatusAcceptable": false,
       "isEndOfJourneyStatus": true,
-      "sequence": 3,
+      "sequence": 4,
       "leadDisplay": {
         "title": "$leadOrder.leadName",
         "description": "Application",
@@ -129,7 +129,7 @@
       "event": "BUSINESS_LOANS_WITHDRAWN_ANY",
       "isNextStatusAcceptable": false,
       "isEndOfJourneyStatus": true,
-      "sequence": 4,
+      "sequence": 5,
       "leadDisplay": {
         "title": "$leadOrder.leadName",
         "description": "Application",
@@ -157,7 +157,7 @@
       "event": "BUSINESS_LOANS_PENDING_APPROVAL_ANY",
       "isNextStatusAcceptable": true,
       "isEndOfJourneyStatus": false,
-      "sequence": 5,
+      "sequence": 6,
       "leadDisplay": {
         "title": "$leadOrder.leadName",
         "description": "Application",
@@ -186,7 +186,7 @@
       "event": "BUSINESS_LOANS_PENDING_DOCUMENTATION_ANY",
       "isNextStatusAcceptable": true,
       "isEndOfJourneyStatus": false,
-      "sequence": 6,
+      "sequence": 7,
       "leadDisplay": {
         "title": "$leadOrder.leadName",
         "description": "Application",
@@ -215,7 +215,7 @@
       "event": "BUSINESS_LOANS_PENDING_REVIEW_ANY",
       "isNextStatusAcceptable": true,
       "isEndOfJourneyStatus": false,
-      "sequence": 7,
+      "sequence": 8,
       "leadDisplay": {
         "title": "$leadOrder.leadName",
         "description": "Application",
@@ -243,7 +243,7 @@
       "event": "BUSINESS_LOANS_READY_FOR_DISBURSAL_ANY",
       "isNextStatusAcceptable": true,
       "isEndOfJourneyStatus": false,
-      "sequence": 8,
+      "sequence": 9,
       "leadDisplay": {
         "title": "$leadOrder.leadName",
         "description": "Application",
@@ -271,7 +271,7 @@
       "event": "BUSINESS_LOANS_LOAN_ACTIVE_ANY",
       "isNextStatusAcceptable": true,
       "isEndOfJourneyStatus": false,
-      "sequence": 9,
+      "sequence": 10,
       "leadDisplay": {
         "title": "$leadOrder.leadName",
         "description": "Application",
@@ -299,7 +299,7 @@
       "event": "BUSINESS_LOANS_LEAD_COMPLETED_ANY",
       "isNextStatusAcceptable": false,
       "isEndOfJourneyStatus": true,
-      "sequence": 10,
+      "sequence": 11,
       "leadDisplay": {
         "title": "$leadOrder.leadName",
         "description": "Application",

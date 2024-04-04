@@ -1,0 +1,444 @@
+{
+  "productCode": "FD",
+  "provider": "nsdl",
+  "tenant": "turtlemint",
+  "broker": "turtlemint",
+  "skipSequence": true,
+  "isLSMNeeded": true,
+  "leadData": [
+      {
+          "stage": "lead-created",
+          "status": "lead-created",
+          "subStatus": [],
+          "action": "FD_LEAD",
+          "event": "FD_LEAD_CREATED",
+          "isNextStatusAcceptable": true,
+          "isEndOfJourneyStatus": false,
+          "sequence": 1,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Lead",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Online"
+              },
+              "statusChip": {
+                  "text": "Unverified",
+                  "color": "YELLOW"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Lead",
+              "isCallCtaEnabled": true,
+              "ctaText": "Lead"
+          }
+      },
+      {
+          "stage": "Investment Details",
+          "status": "Order initiated Page",
+          "subStatus": [],
+          "action": "FD_INVESTMENT_DETAILS",
+          "event": "FD_INVESTMENT_DETAILS_ORDER_INITIATED",
+          "isNextStatusAcceptable": true,
+          "isEndOfJourneyStatus": false,
+          "sequence": 1,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application In Progress",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Investment details required",
+                  "color": "YELLOW"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application In Progress",
+              "isCallCtaEnabled": false,
+              "ctaText": "Application In Progress"
+          }
+      },
+      {
+          "stage": "Investment Details",
+          "status": "Partially captured",
+          "subStatus": [],
+          "action": "FD_INVESTMENT_DETAILS",
+          "event": "FD_INVESTMENT_DETAILS_PARTIALLY_CAPTURED",
+          "isNextStatusAcceptable": true,
+          "isEndOfJourneyStatus": false,
+          "sequence": 2,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application In Progress",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Investment details required",
+                  "color": "YELLOW"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application In Progress",
+              "isCallCtaEnabled": false,
+              "ctaText": "Application In Progress"
+          }
+      },
+      {
+          "stage": "Address Details",
+          "status": "Partially captured",
+          "subStatus": [],
+          "action": "FD_ADDRESS_DETAILS",
+          "event": "FD_ADDRESS_DETAILS_PARTIALLY_CAPTURED",
+          "isNextStatusAcceptable": true,
+          "isEndOfJourneyStatus": false,
+          "sequence": 3,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application In Progress",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Customer address required",
+                  "color": "YELLOW"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application In Progress",
+              "isCallCtaEnabled": false,
+              "ctaText": "Application In Progress"
+          }
+      },
+      {
+          "stage": "Nomination",
+          "status": "Partially captured",
+          "subStatus": [],
+          "action": "FD_NOMINATION",
+          "event": "FD_NOMINATION_DETAILS_PARTIALLY_CAPTURED",
+          "isNextStatusAcceptable": true,
+          "isEndOfJourneyStatus": false,
+          "sequence": 4,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application In Progress",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Enter nominee details",
+                  "color": "YELLOW"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application In Progress",
+              "isCallCtaEnabled": false,
+              "ctaText": "Application In Progress"
+          }
+      },
+      {
+          "stage": "Bank Detail",
+          "status": "Partially captured",
+          "subStatus": [],
+          "action": "FD_BANK_DETAILS",
+          "event": "FD_BANK_DETAILS_PARTIALLY_CAPTURED",
+          "isNextStatusAcceptable": true,
+          "isEndOfJourneyStatus": false,
+          "sequence": 5,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application In Progress",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Enter bank details",
+                  "color": "YELLOW"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application In Progress",
+              "isCallCtaEnabled": false,
+              "ctaText": "Application In Progress"
+          }
+      },
+      {
+          "stage": "Document Upload",
+          "status": "Partially captured",
+          "subStatus": [],
+          "action": "FD_DOCUMENT_UPLOAD",
+          "event": "FD_DOCUMENT_UPLOAD_PARTIALLY_CAPTURED",
+          "isNextStatusAcceptable": true,
+          "isEndOfJourneyStatus": false,
+          "sequence": 6,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application In Progress",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Upload documents",
+                  "color": "YELLOW"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application In Progress",
+              "isCallCtaEnabled": false,
+              "ctaText": "Application In Progress"
+          }
+      },
+      {
+          "stage": "Summary Page",
+          "status": "Partially captured",
+          "subStatus": [],
+          "action": "FD_SUMMARY_PAGE_PARTIALLY_CAPTURED",
+          "event": "FD_SUMMARY_PAGE_PARTIALLY_CAPTURED",
+          "isNextStatusAcceptable": true,
+          "isEndOfJourneyStatus": false,
+          "sequence": 7,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application In Progress",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Application in Progress",
+                  "color": "YELLOW"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application In Progress",
+              "isCallCtaEnabled": false,
+              "ctaText": "Application In Progress"
+          }
+      },
+      {
+          "stage": "Summary page",
+          "status": "Payment initiated",
+          "subStatus": [],
+          "action": "FD_SUMMARY_PAGE_PAYMENT_INITIATED",
+          "event": "FD_SUMMARY_PAGE_PAYMENT_INITIATED",
+          "isNextStatusAcceptable": true,
+          "isEndOfJourneyStatus": false,
+          "sequence": 8,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application In Progress",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Initiate Payment",
+                  "color": "YELLOW"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application In Progress",
+              "isCallCtaEnabled": false,
+              "ctaText": "Application In Progress"
+          }
+      },
+      {
+          "stage": "Summary page",
+          "status": "Under Process",
+          "subStatus": [],
+          "action": "FD_SUMMARY_PAGE_UNDER_PROCESS",
+          "event": "FD_SUMMARY_PAGE_UNDER_PROCESS",
+          "isNextStatusAcceptable": true,
+          "isEndOfJourneyStatus": false,
+          "sequence": 9,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application In Progress",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Application in Progress",
+                  "color": "YELLOW"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application In Progress",
+              "isCallCtaEnabled": false,
+              "ctaText": "Application in Progress"
+          }
+      },
+      {
+          "stage": "Summary page",
+          "status": "Payment Failed",
+          "subStatus": [],
+          "action": "FD_SUMMARY_PAGE_PAYMENT_FAILED",
+          "event": "FD_SUMMARY_PAGE_PAYMENT_FAILED",
+          "isNextStatusAcceptable": true,
+          "isEndOfJourneyStatus": false,
+          "sequence": 10,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application In Progress",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Payment Failed",
+                  "color": "YELLOW"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application In Progress",
+              "isCallCtaEnabled": false,
+              "ctaText": "Application In Progress"
+          }
+      },
+      {
+          "stage": "Summary page",
+          "status": "Processed",
+          "subStatus": [],
+          "action": "FD_SUMMARY_PAGE_PAYMENT_PROCESSED",
+          "event": "FD_SUMMARY_PAGE_PAYMENT_PROCESSED",
+          "isNextStatusAcceptable": true,
+          "isEndOfJourneyStatus": false,
+          "sequence": 11,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application Successful",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Payment Processed",
+                  "color": "GREEN"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application Successful",
+              "isCallCtaEnabled": false
+          }
+      },
+      {
+          "stage": "Summary page",
+          "status": "Cancelled",
+          "subStatus": [],
+          "action": "FD_SUMMARY_PAGE_CANCELLED",
+          "event": "FD_SUMMARY_PAGE_CANCELLED",
+          "isNextStatusAcceptable": false,
+          "isEndOfJourneyStatus": true,
+          "sequence": 12,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application closed",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Cancelled",
+                  "color": "RED"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application closed",
+              "isCallCtaEnabled": false
+          }
+      },
+      {
+          "stage": "Summary page",
+          "status": "Aborted",
+          "subStatus": [],
+          "action": "FD_SUMMARY_PAGE_ABORTED",
+          "event": "FD_SUMMARY_PAGE_ABORTED",
+          "isNextStatusAcceptable": false,
+          "isEndOfJourneyStatus": true,
+          "sequence": 13,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application closed",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Aborted",
+                  "color": "RED"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application closed",
+              "isCallCtaEnabled": false
+          }
+      },
+      {
+          "stage": "Lead completed",
+          "status": "Completed",
+          "subStatus": [],
+          "action": "FD_COMPLETED",
+          "event": "FD_COMPLETED",
+          "isNextStatusAcceptable": false,
+          "isEndOfJourneyStatus": true,
+          "sequence": 14,
+          "leadDisplay": {
+              "title": "$leadOrder.leadName",
+              "description": "Application Completed",
+              "productChip": {
+                  "text": "Fixed Deposit",
+                  "icon": "https://images.ctfassets.net/5vcetob1xxe5/01pIArMLFx7j2HqCg2U6xl/a56d3dd397b0c488e77d2e1165c9faa7/Fix_Deposit_2D.svg"
+              },
+              "sourceChip": {
+                  "text": "Lead Form"
+              },
+              "statusChip": {
+                  "text": "Lead Won",
+                  "color": "GREEN"
+              },
+              "detailsTitle": "$leadOrder.leadName",
+              "detailsDescription": "Application Completed",
+              "isCallCtaEnabled": false
+          }
+      }
+  ],
+  "createdAt": "2024-01-23T11:17:21.709+0000",
+  "updatedAt": "2024-04-03T12:37:40.916+0000",
+  "updatedBy": "gaurav"
+}

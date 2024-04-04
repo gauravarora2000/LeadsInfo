@@ -1,0 +1,609 @@
+{
+  "data": {
+      "productCode": "personal-loan",
+      "provider": "credilio",
+      "tenant": "turtlemint",
+      "broker": "turtlemint",
+      "skipSequence": true,
+      "isLSMNeeded":false,
+      "leadData": [
+          {
+              "stage": "lead-created",
+              "status": "lead-created",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_ANY",
+              "event": "PERSONAL_LOAN_ANY_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 1,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "Unverified",
+                      "color": "YELLOW"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Lead"
+              }
+          },
+          {
+              "stage": "Not Eligible - Policy check failed",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_NOT_ELIGIBLE_POLICY_CHECK_FAILED",
+              "event": "PERSONAL_LOAN_NOT_ELIGIBLE_POLICY_CHECK_FAILED_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 2,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "Rejected",
+                      "color": "RED"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": false
+              }
+          },
+          {
+              "stage": "Lead Generated",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_LEAD_GENERATED",
+              "event": "PERSONAL_LOAN_LEAD_GENERATED_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 3,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "Lead created",
+                      "color": "RED"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Application in Progress"
+              }
+          },
+          {
+              "stage": "AIP - Rejected",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_AIP_REJECTED",
+              "event": "PERSONAL_LOAN_AIP_REJECTED_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 4,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "Rejected",
+                      "color": "RED"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": false
+              }
+          },
+          {
+              "stage": "Lead Submitted",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_LEAD_SUBMITTED",
+              "event": "PERSONAL_LOAN_LEAD_SUBMITTED_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 5,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "Lead Verified",
+                      "color": "YELLOW"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Application in Progress"
+              }
+          },
+          {
+              "stage": "Weblink sent to customer",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_WEBLINK_SENT",
+              "event": "PERSONAL_LOAN_WEBLINK_SENT_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 6,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "Link Shared",
+                      "color": "YELLOW"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Application in Progress"
+              }
+          },
+          {
+              "stage": "Customer Not Eligible",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_CUSTOMER_NOT_ELIGIBLE",
+              "event": "PERSONAL_LOAN_CUSTOMER_NOT_ELIGIBLE_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 7,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "Not Eligible",
+                      "color": "RED"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": false
+              }
+          },
+          {
+              "stage": "Application submitted to Bank",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_APPLICATION_SUBMITTED_TO_BANK",
+              "event": "PERSONAL_LOAN_APPLICATION_SUBMITTED_TO_BANK_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 8,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "In Progress",
+                      "color": "YELLOW"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Application in Progress"
+              }
+          },
+          {
+              "stage": "Application Initiated",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_APPLICATION_INITIATED",
+              "event": "PERSONAL_LOAN_APPLICATION_INITIATED_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 9,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "In Progress",
+                      "color": "YELLOW"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Application in Progress"
+              }
+          },
+          {
+              "stage": "Application Rejected",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_APPLICATION_REJECTED",
+              "event": "PERSONAL_LOAN_APPLICATION_REJECTED_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 10,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "Rejected",
+                      "color": "RED"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": false
+              }
+          },
+          {
+              "stage": "Product Selected",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_PRODUCT_SELECTED",
+              "event": "PERSONAL_LOAN_PRODUCT_SELECTED_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 11,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "Product Selected",
+                      "color": "YELLOW"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Application in Progress"
+              }
+          },
+          {
+              "stage": "Customer Eligible",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_CUSTOMER_ELIGIBLE",
+              "event": "PERSONAL_LOAN_CUSTOMER_ELIGIBLE_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 12,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "Eligible",
+                      "color": "YELLOW"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Application in Progress"
+              }
+          },
+          {
+              "stage": "Loan Sanctioned",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_LOAN_SANCTIONED",
+              "event": "PERSONAL_LOAN_LOAN_SANCTIONED_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 13,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "Loan Sanctioned",
+                      "color": "YELLOW"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Application in Progress"
+              }
+          },
+          {
+              "stage": "Loans Offered",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_LOAN_OFFERED",
+              "event": "PERSONAL_LOAN_LOAN_OFFERED_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 14,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "Loan Offered",
+                      "color": "GREEN"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": false
+              }
+          },
+          {
+              "stage": "AIP- In Progress@Bank",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_AIP_IN_PROGRESS_BANK",
+              "event": "PERSONAL_LOAN_AIP_IN_PROGRESS_BANK_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 15,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "In Progress",
+                      "color": "YELLOW"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Application in Progress"
+              }
+          },
+          {
+              "stage": "AIP - In Progress",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_AIP_IN_PROGRESS",
+              "event": "PERSONAL_LOAN_AIP_IN_PROGRESS_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 16,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "In Progress",
+                      "color": "YELLOW"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Application in Progress"
+              }
+          },
+          {
+              "stage": "Customer Data Submitted",
+              "status": "any",
+              "subStatus": [],
+              "action": "PERSONAL_LOAN_",
+              "event": "PERSONAL_LOAN_AIP_IN_PROGRESS_BANK_ANY",
+              "isNextStatusAcceptable": true,
+              "isEndOfJourneyStatus": false,
+              "sequence": 17,
+              "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "In Progress",
+                      "color": "YELLOW"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Application in Progress"
+              }
+          },{
+                  "stage": "Lead",
+                  "status": "Lead Verified",
+                  "subStatus": [
+                      "Bureau Not Fetched",
+                      "Bureau Mobile number mismatch",
+                      "Offer not Viewed"
+                  ],
+                  "action": "CC_Lead_Verified",
+                  "event": "CC_Lead_Lead_Verified",
+                  "isNextStatusAcceptable": true,
+                  "isEndOfJourneyStatus": false,
+                  "sequence": 18,
+                  "leadDisplay": {
+                  "title": "$leadOrder.leadName",
+                  "description": "Application",
+                  "productChip": {
+                      "text": "personal-loan",
+                      "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  },
+                  "sourceChip": {
+                      "text": "Online"
+                  },
+                  "statusChip": {
+                      "text": "In Progress",
+                      "color": "YELLOW"
+                  },
+                  "detailsTitle": "$leadOrder.leadName",
+                  "detailsDescription": "Application",
+                  "isCallCtaEnabled": true,
+                  "ctaText": "Application in Progress"
+              }
+              },
+              {
+                  "stage": "Lead",
+                  "status": "Lead Expired",
+                  "subStatus": [],
+                  "action": "CC_Lead_Expired",
+                  "event": "CC_Lead_Lead_Expired",
+                  "isNextStatusAcceptable": false,
+                  "isEndOfJourneyStatus": true,
+                  "sequence": 19
+              },
+              {
+                  "stage": "Application",
+                  "status": "Application Not Completed",
+                  "subStatus": [
+                      "Card Selected",
+                      "Customer not contactable",
+                      "Customer not interested",
+                      "Customer to be contacted",
+                      "Application not Initiated"
+                  ],
+                  "action": "CC_Application_Not_Completed",
+                  "event": "CC_Application_Application_Not_Completed",
+                  "isNextStatusAcceptable": true,
+                  "isEndOfJourneyStatus": false,
+                  "sequence": 20
+              },
+              {
+                  "stage": "Application",
+                  "status": "Application Not Submitted",
+                  "subStatus": [],
+                  "action": "CC_Application_Not_Submitted",
+                  "event": "CC_Application_Application_Not_Submitted",
+                  "isNextStatusAcceptable": true,
+                  "isEndOfJourneyStatus": false,
+                  "sequence": 21
+              },
+              {
+                  "stage": "Application",
+                  "status": "Application Submitted",
+                  "subStatus": [],
+                  "action": "CC_Application_submitted",
+                  "event": "CC_Application_Application_Submitted",
+                  "isNextStatusAcceptable": true,
+                  "isEndOfJourneyStatus": false,
+                  "sequence": 22
+              },
+              {
+                  "stage": "Application",
+                  "status": "Approved in Principle",
+                  "subStatus": [],
+                  "action": "CC_Approved_in_Principle",
+                  "event": "CC_Application_Approved_In_Principle",
+                  "isNextStatusAcceptable": true,
+                  "isEndOfJourneyStatus": false,
+                  "sequence": 23
+              },
+              {
+                  "stage": "Application",
+                  "status": "AIP - Rejected",
+                  "subStatus": [],
+                  "action": "CC_AIP_Rejected",
+                  "event": "CC_Application_AIP_Rejected",
+                  "isNextStatusAcceptable": false,
+                  "isEndOfJourneyStatus": true,
+                  "sequence": 24
+              },
+              {
+                  "stage": "Application",
+                  "status": "Application Rejected",
+                  "subStatus": [],
+                  "action": "CC_Application_Rejected",
+                  "event": "CC_Application_Application_Rejected",
+                  "isNextStatusAcceptable": false,
+                  "isEndOfJourneyStatus": true,
+                  "sequence": 25
+              }
+      ],
+      "updatedBy": "ankit.singh"
+  }
+}

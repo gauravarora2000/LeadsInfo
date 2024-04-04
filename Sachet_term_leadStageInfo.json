@@ -1,0 +1,243 @@
+{
+    "productCode": "sachet-term",
+    "provider": "aegon",
+    "tenant": "turtlemint",
+    "broker": "turtlemint",
+    "skipSequence": true,
+    "isLSMNeeded": true,
+    "leadData": [
+        {
+            "stage": "lead-created",
+            "status": "lead-created",
+            "subStatus": [],
+            "action": "SACHET_TERM_LEAD",
+            "event": "SACHET_TERM_LEAD_CREATED",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 1,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application",
+                "productChip": {
+                    "text": "sachet-term",
+                    "icon": ""
+                },
+                "sourceChip": {
+                    "text": "Online"
+                },
+                "statusChip": {
+                    "text": "Unverified",
+                    "color": "YELLOW"
+                },
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application",
+                "isCallCtaEnabled": true,
+                "ctaText": "Lead"
+            }
+        },
+        {
+            "stage": "proposer-details",
+            "status": "inProgress",
+            "subStatus": [],
+            "action": "SACHET_TERM_PROPOSER_DETAILS",
+            "event": "SACHET_TERM_PROPOSER_DETAILS_INPROGRESS",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 1,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application in Progress",
+                "productChip": {
+                    "text": "Sachet Term",
+                    "icon": "https://images.ctfassets.net/aetbui3cjc0i/2dG7gQpT8t4ApjPuFUwIgv/873e546376b7a59634cfdce0ffe73234/16PX_Icons_Car.svg"
+                },
+                "sourceChip": {
+                    "text": "Lead Form"
+                },
+                "statusChip": {
+                    "text": "Details pending",
+                    "color": "YELLOW"
+                },
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application in Progress",
+                "isCallCtaEnabled": false,
+                "ctaText": "Application in Progress"
+            }
+        },
+        {
+            "stage": "address-details",
+            "status": "inProgress",
+            "subStatus": [],
+            "action": "SACHET_TERM_ADDRESS_DETAILS",
+            "event": "SACHET_TERM_ADDRESS_DETAILS_INPROGRESS",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 2,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application in Progress",
+                "productChip": {
+                    "text": "Sachet Term",
+                    "icon": "https://images.ctfassets.net/aetbui3cjc0i/2dG7gQpT8t4ApjPuFUwIgv/873e546376b7a59634cfdce0ffe73234/16PX_Icons_Car.svg"
+                },
+                "sourceChip": {
+                    "text": "Lead Form"
+                },
+                "statusChip": {
+                    "text": "Details pending",
+                    "color": "YELLOW"
+                },
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application in Progress",
+                "isCallCtaEnabled": false,
+                "ctaText": "Application in Progress"
+            }
+        },
+        {
+            "stage": "nominee-details",
+            "status": "inProgress",
+            "subStatus": [],
+            "action": "SACHET_TERM_NOMINEE_DETAILS",
+            "event": "SACHET_TERM_NOMINEE_DETAILS_INPROGRESS",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 3,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application in Progress",
+                "productChip": {
+                    "text": "Sachet Term",
+                    "icon": "https://images.ctfassets.net/aetbui3cjc0i/2dG7gQpT8t4ApjPuFUwIgv/873e546376b7a59634cfdce0ffe73234/16PX_Icons_Car.svg"
+                },
+                "sourceChip": {
+                    "text": "Lead Form"
+                },
+                "statusChip": {
+                    "text": "Details pending",
+                    "color": "YELLOW"
+                },
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application in Progress",
+                "isCallCtaEnabled": false,
+                "ctaText": "Application in Progress"
+            }
+        },
+        {
+            "stage": "declaration",
+            "status": "inProgress",
+            "subStatus": [],
+            "action": "SACHET_TERM_DECLARATION",
+            "event": "SACHET_TERM_DECLARATION_INPROGRESS",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 4,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application in Progress",
+                "productChip": {
+                    "text": "Sachet Term",
+                    "icon": "https://images.ctfassets.net/aetbui3cjc0i/2dG7gQpT8t4ApjPuFUwIgv/873e546376b7a59634cfdce0ffe73234/16PX_Icons_Car.svg"
+                },
+                "sourceChip": {
+                    "text": "Lead Form"
+                },
+                "statusChip": {
+                    "text": "Details pending",
+                    "color": "YELLOW"
+                },
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application in Progress",
+                "isCallCtaEnabled": false,
+                "ctaText": "Application in Progress"
+            }
+        },
+        {
+            "stage": "otp-verification",
+            "status": "inProgress",
+            "subStatus": [],
+            "action": "SACHET_TERM_OTP_VERIFICATION",
+            "event": "SACHET_TERM_OTP_VERIFICATION_INPROGRESS",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 5,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application in Progress",
+                "productChip": {
+                    "text": "Sachet Term",
+                    "icon": "https://images.ctfassets.net/aetbui3cjc0i/2dG7gQpT8t4ApjPuFUwIgv/873e546376b7a59634cfdce0ffe73234/16PX_Icons_Car.svg"
+                },
+                "sourceChip": {
+                    "text": "Lead Form"
+                },
+                "statusChip": {
+                    "text": "Verification pending",
+                    "color": "YELLOW"
+                },
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application in Progress",
+                "isCallCtaEnabled": false,
+                "ctaText": "Application in Progress"
+            }
+        },
+        {
+            "stage": "payment-page",
+            "status": "Submitted",
+            "subStatus": [],
+            "action": "SACHET_TERM_PAYMENT_PAGE",
+            "event": "SACHET_TERM_PAYMENT_PAGE_SUBMITTED",
+            "isNextStatusAcceptable": true,
+            "isEndOfJourneyStatus": false,
+            "sequence": 6,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application Successful",
+                "productChip": {
+                    "text": "Sachet Term",
+                    "icon": "https://images.ctfassets.net/aetbui3cjc0i/2dG7gQpT8t4ApjPuFUwIgv/873e546376b7a59634cfdce0ffe73234/16PX_Icons_Car.svg"
+                },
+                "sourceChip": {
+                    "text": "Lead Form"
+                },
+                "statusChip": {
+                    "text": "Completed",
+                    "color": "GREEN"
+                },
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application Successful",
+                "isCallCtaEnabled": false
+            }
+        },
+        {
+            "stage": "lead-completed",
+            "status": "any",
+            "subStatus": [],
+            "action": "SACHET_TERM_COMPLETED",
+            "event": "SACHET_TERM_COMPLETED",
+            "isNextStatusAcceptable": false,
+            "isEndOfJourneyStatus": true,
+            "sequence": 7,
+            "leadDisplay": {
+                "title": "$leadOrder.leadName",
+                "description": "Application Successful",
+                "productChip": {
+                    "text": "Sachet Term",
+                    "icon": "https://images.ctfassets.net/aetbui3cjc0i/2dG7gQpT8t4ApjPuFUwIgv/873e546376b7a59634cfdce0ffe73234/16PX_Icons_Car.svg"
+                },
+                "sourceChip": {
+                    "text": "Lead Form"
+                },
+                "statusChip": {
+                    "text": "Lead Won",
+                    "color": "GREEN"
+                },
+                "detailsTitle": "$leadOrder.leadName",
+                "detailsDescription": "Application Successful",
+                "isCallCtaEnabled": false
+            }
+        }
+    ],
+    "createdAt": "2023-09-26T09:36:24.239+0000",
+    "updatedAt": "2024-04-04T06:29:43.509+0000",
+    "updatedBy": "gaurav"
+}

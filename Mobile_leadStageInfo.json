@@ -1,0 +1,151 @@
+{
+  "productCode": "mobile",
+  "provider": "HDFC",
+  "tenant": "turtlemint",
+  "broker": "turtlemint",
+  "skipSequence": true,
+  "isLSMNeeded": true,
+  "leadData": [
+    {
+      "stage": "QUOTATION",
+      "status": "QUOTE_CREATED",
+      "subStatus": [],
+      "action": "QUOTATION_QUOTE_CREATED",
+      "event": "MOBILE_QUOTATION_QUOTE_CREATED",
+      "isNextStatusAcceptable": true,
+      "isEndOfJourneyStatus": false,
+      "sequence": 1,
+      "leadDisplay": {
+        "title": "$leadOrder.leadName",
+        "description": "New Quotation Created",
+        "productChip": {
+          "text": "mobile",
+          "icon": "https://assets.mintpro.in/images/16PX+Icons%3DDefault.svg"
+        },
+        "sourceChip": {
+          "text": "Lead Form"
+        },
+        "statusChip": {
+          "text": "QUOTE_CREATED",
+          "color": "GREEN"
+        },
+        "detailsTitle": "$leadOrder.leadName",
+        "detailsDescription": "Quotation Generated Successfully!",
+        "isCallCtaEnabled": false
+      }
+    },
+    {
+      "stage": "PROPOSAL",
+      "status": "PROPOSAL_INITIATED",
+      "subStatus": [],
+      "action": "PROPOSAL_PROPOSAL_INITIATED",
+      "event": "MOBILE_PROPOSAL_PROPOSAL_INITIATED",
+      "isNextStatusAcceptable": true,
+      "isEndOfJourneyStatus": false,
+      "sequence": 2,
+      "leadDisplay": {
+        "title": "$leadOrder.leadName",
+        "description": "New Proposal Created",
+        "productChip": {
+          "text": "mobile",
+          "icon": "https://assets.mintpro.in/images/16PX+Icons%3DDefault.svg"
+        },
+        "sourceChip": {
+          "text": "Lead Form"
+        },
+        "statusChip": {
+          "text": "PROPOSAL_INITIATED",
+          "color": "GREEN"
+        },
+        "detailsTitle": "$leadOrder.leadName",
+        "detailsDescription": "Proposal Generated Successfully!",
+        "isCallCtaEnabled": false
+      }
+    },
+    {
+      "stage": "PAYMENT",
+      "status": "PAYMENT_INITIATED",
+      "subStatus": [],
+      "action": "PAYMENT_PAYMENT_INITIATED",
+      "event": "MOBILE_PAYMENT_PAYMENT_INITIATED",
+      "isNextStatusAcceptable": false,
+      "isEndOfJourneyStatus": true,
+      "sequence": 3,
+      "leadDisplay": {
+        "title": "$leadOrder.leadName",
+        "description": "New Payment Initiated",
+        "productChip": {
+          "text": "mobile",
+          "icon": "https://assets.mintpro.in/images/16PX+Icons%3DDefault.svg"
+        },
+        "sourceChip": {
+          "text": "Lead Form"
+        },
+        "statusChip": {
+          "text": "PAYMENT_INITIATED",
+          "color": "GREEN"
+        },
+        "detailsTitle": "$leadOrder.leadName",
+        "detailsDescription": "Payment Initiated Successfully!",
+        "isCallCtaEnabled": false
+      }
+    },
+    {
+      "stage": "PAYMENT",
+      "status": "SUCCESS",
+      "subStatus": [],
+      "action": "PAYMENT_PAYMENT_COMPLETED",
+      "event": "MOBILE_PAYMENT_PAYMENT_COMPLETED",
+      "isNextStatusAcceptable": false,
+      "isEndOfJourneyStatus": true,
+      "sequence": 4,
+      "leadDisplay": {
+        "title": "$leadOrder.leadName",
+        "description": "New Payment Registered",
+        "productChip": {
+          "text": "mobile",
+          "icon": "https://assets.mintpro.in/images/16PX+Icons%3DDefault.svg"
+        },
+        "sourceChip": {
+          "text": "Lead Form"
+        },
+        "statusChip": {
+          "text": "PAYMENT_COMPLETED",
+          "color": "GREEN"
+        },
+        "detailsTitle": "$leadOrder.leadName",
+        "detailsDescription": "Payment Received Successfully",
+        "isCallCtaEnabled": false
+      }
+    },
+    {
+      "stage": "ISSUANCE",
+      "status": "POLICY_ISSUED",
+      "subStatus": [],
+      "action": "PAYMENT_POLICY_ISSUED",
+      "event": "MOBILE_PAYMENT_POLICY_ISSUED",
+      "isNextStatusAcceptable": false,
+      "isEndOfJourneyStatus": true,
+      "sequence": 5,
+      "leadDisplay": {
+        "title": "$leadOrder.leadName",
+        "description": "New Policy Issued",
+        "productChip": {
+          "text": "mobile",
+          "icon": "https://assets.mintpro.in/images/16PX+Icons%3DDefault.svg"
+        },
+        "sourceChip": {
+          "text": "Lead Form"
+        },
+        "statusChip": {
+          "text": "POLICY_ISSUED",
+          "color": "GREEN"
+        },
+        "detailsTitle": "$leadOrder.leadName",
+        "detailsDescription": "Policy Issued Successfully!",
+        "isCallCtaEnabled": false
+      }
+    }
+  ],
+  "updatedBy": "gaurav"
+}
