@@ -4,7 +4,7 @@
   "tenant": "turtlemint",
   "broker": "turtlemint",
   "skipSequence": true,
-  "isLSMNeeded": false,
+  "isLSMNeeded": true,
   "leadData": [
       {
           "stage": "lead-created",
@@ -17,22 +17,22 @@
           "sequence": 1,
           "leadDisplay": {
               "title": "$leadOrder.leadName",
-              "description": "Application",
+              "description": "OTP required for CIBIL verification",
               "productChip": {
                   "text": "personal-loan",
-                  "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  "icon": "https://app.turtlemint.com/api/files/v1/view/2e8fdfac-c439-451a-91bc-42eb03340dba?broker=turtlemint"
               },
               "sourceChip": {
                   "text": "Online"
               },
               "statusChip": {
-                  "text": "Unverified",
+                  "text": "Unverified Lead",
                   "color": "YELLOW"
               },
               "detailsTitle": "$leadOrder.leadName",
-              "detailsDescription": "Application",
-              "isCallCtaEnabled": true,
-              "ctaText": "Lead"
+              "detailsDescription": "OTP required for CIBIL verification",
+              "isCallCtaEnabled": false,
+              "ctaText": "Complete Application"
           }
       },
       {
@@ -46,22 +46,22 @@
           "sequence": 2,
           "leadDisplay": {
               "title": "$leadOrder.leadName",
-              "description": "Application",
+              "description": "Ask customer to fill the application form",
               "productChip": {
                   "text": "personal-loan",
-                  "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  "icon": "https://app.turtlemint.com/api/files/v1/view/2e8fdfac-c439-451a-91bc-42eb03340dba?broker=turtlemint"
               },
               "sourceChip": {
                   "text": "Online"
               },
               "statusChip": {
-                  "text": "Verified",
+                  "text": "Verified Lead",
                   "color": "YELLOW"
               },
               "detailsTitle": "$leadOrder.leadName",
-              "detailsDescription": "Application",
-              "isCallCtaEnabled": true,
-              "ctaText": "Lead"
+              "detailsDescription": "Ask customer to fill the application form",
+              "isCallCtaEnabled": false,
+              "ctaText": "Complete Application"
           }
       },
       {
@@ -75,26 +75,26 @@
           "sequence": 3,
           "leadDisplay": {
               "title": "$leadOrder.leadName",
-              "description": "Application",
+              "description": "Complete Application",
               "productChip": {
                   "text": "personal-loan",
-                  "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  "icon": "https://app.turtlemint.com/api/files/v1/view/2e8fdfac-c439-451a-91bc-42eb03340dba?broker=turtlemint"
               },
               "sourceChip": {
                   "text": "Online"
               },
               "statusChip": {
-                  "text": "KYC Pending",
+                  "text": "In Progress",
                   "color": "YELLOW"
               },
               "detailsTitle": "$leadOrder.leadName",
-              "detailsDescription": "Application",
-              "isCallCtaEnabled": true,
-              "ctaText": "Application in Progress"
+              "detailsDescription": "Complete Application",
+              "isCallCtaEnabled": false,
+              "ctaText": "Customer KYC Pending"
           }
       },
       {
-          "stage": "confirmed without principaldue",
+          "stage": "confirmed without principal due",
           "status": "any",
           "subStatus": [],
           "action": "PERSONAL_LOAN_CONFIRMED_WITHOUT_PRINCIPALDUE",
@@ -104,26 +104,26 @@
           "sequence": 4,
           "leadDisplay": {
               "title": "$leadOrder.leadName",
-              "description": "Application",
+              "description": "Loan offer available",
               "productChip": {
                   "text": "personal-loan",
-                  "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  "icon": "https://app.turtlemint.com/api/files/v1/view/2e8fdfac-c439-451a-91bc-42eb03340dba?broker=turtlemint"
               },
               "sourceChip": {
                   "text": "Online"
               },
               "statusChip": {
-                  "text": "Offer Available",
+                  "text": "In Progress",
                   "color": "YELLOW"
               },
               "detailsTitle": "$leadOrder.leadName",
-              "detailsDescription": "Application",
-              "isCallCtaEnabled": true,
-              "ctaText": "Application in Progress"
+              "detailsDescription": "Loan offer available",
+              "isCallCtaEnabled": false,
+              "ctaText": "Complete Application"
           }
       },
       {
-          "stage": "confirmed with principaldue",
+          "stage": "confirmed with principal due",
           "status": "any",
           "subStatus": [],
           "action": "PERSONAL_LOAN_CONFIRMED_WITH_PRINCIPALDUE",
@@ -133,20 +133,20 @@
           "sequence": 5,
           "leadDisplay": {
               "title": "$leadOrder.leadName",
-              "description": "Application",
+              "description": "Loan disbursed",
               "productChip": {
                   "text": "personal-loan",
-                  "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  "icon": "https://app.turtlemint.com/api/files/v1/view/2e8fdfac-c439-451a-91bc-42eb03340dba?broker=turtlemint"
               },
               "sourceChip": {
                   "text": "Online"
               },
               "statusChip": {
-                  "text": "Loan disbursed",
+                  "text": "Completed",
                   "color": "GREEN"
               },
               "detailsTitle": "$leadOrder.leadName",
-              "detailsDescription": "Application",
+              "detailsDescription": "Loan disbursed",
               "isCallCtaEnabled": false
           }
       },
@@ -161,10 +161,10 @@
           "sequence": 6,
           "leadDisplay": {
               "title": "$leadOrder.leadName",
-              "description": "Application",
+              "description": "Scorecard decline due to credit history",
               "productChip": {
                   "text": "personal-loan",
-                  "icon": "https://assets.mintpro.in/images/16PX+Icons%3DLoans.svg"
+                  "icon": "https://app.turtlemint.com/api/files/v1/view/2e8fdfac-c439-451a-91bc-42eb03340dba?broker=turtlemint"
               },
               "sourceChip": {
                   "text": "Online"
@@ -174,7 +174,7 @@
                   "color": "RED"
               },
               "detailsTitle": "$leadOrder.leadName",
-              "detailsDescription": "Application",
+              "detailsDescription": "Scorecard decline due to credit history",
               "isCallCtaEnabled": false
           }
       }
