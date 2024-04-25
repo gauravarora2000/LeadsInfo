@@ -75,7 +75,7 @@
           "sequence": 3,
           "leadDisplay": {
               "title": "$leadOrder.leadName",
-              "description": "Complete Application",
+              "description": "Customer KYC Pending",
               "productChip": {
                   "text": "personal-loan",
                   "icon": "https://app.turtlemint.com/api/files/v1/view/2e8fdfac-c439-451a-91bc-42eb03340dba?broker=turtlemint"
@@ -88,9 +88,9 @@
                   "color": "YELLOW"
               },
               "detailsTitle": "$leadOrder.leadName",
-              "detailsDescription": "Complete Application",
+              "detailsDescription": "Customer KYC Pending",
               "isCallCtaEnabled": false,
-              "ctaText": "Customer KYC Pending"
+              "ctaText": "Complete Application"
           }
       },
       {
